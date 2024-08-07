@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Portfolio Website
 
-This is just a fun Cybersecurity Portfolio Website I made for myself
+This is just a fun cybersecurity themed portfolio website I made for myself
 
 ## 🌟 Features
 
