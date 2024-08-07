@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Portfolio</title>
+    <meta name="description" content="[Enter your a brief description of yourself here]">
+    <link rel="stylesheet" href="PortfolioWebsiteMainPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Canvas element for matrix rain effect -->
+    <canvas id="matrix-rain"></canvas>
+    
+    <!-- Header section with profile information -->
+    <header>
+        <img src="[Your Profile Photo URL]" class="profile-photo" loading="lazy">
+        <h1 class="glitch">
+            [Your Name]
+            <span class="glitch-effect" aria-hidden="true"></span>
+            <span class="glitch-effect" aria-hidden="true"></span>
+        </h1>
+        <div class="bio">
+            <p id="bio-text"></p>
+        </div>
+        <div class="button-container">
+            <button id="contact-button" class="contact-button" aria-label="Open contact information">Contact Me</button>
+        </div>
+    </header>
+
+    <!-- Main content with project cards -->
+    <main>
+        <!-- Projects card -->
+        <div class="card" style="--card-color: #eb3232;">
+            <a href="[Your GitHub Repositories URL]" class="card-link">
+                <i class="fas fa-code-branch"></i>
+                <h2>Projects</h2>
+                <p>View my GitHub repositories</p>
+            </a>
+        </div>
+
+        <!-- Resume card -->
+        <div class="card" style="--card-color: #50C878;">
+            <a href="[Your Resume PDF Filename]" class="card-link" download>
+                <i class="fas fa-file-pdf"></i>
+                <h2>Resume</h2>
+                <p>Download my resume</p>
+            </a>
+        </div>
+
+        <!-- Certifications card -->
+        <div class="card" style="--card-color: #FFD700;">
+            <a href="[Your Certifications URL]" class="card-link">
+                <i class="fas fa-certificate"></i>
+                <h2>Certifications</h2>
+                <p>View my professional certifications</p>
+            </a>
+        </div>
+
+        <!-- LinkedIn card -->
+        <div class="card" style="--card-color: #0077B5;">
+            <a href="[Your LinkedIn Profile URL]" class="card-link">
+                <i class="fab fa-linkedin"></i>
+                <h2>LinkedIn</h2>
+                <p>Connect with me professionally</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <p>&copy; [Current Year] [Your Name] All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Contact modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Me</h2>
+            <div class="contact-options">
+                <a href="mailto:[Your Email]" class="contact-option">
+                    <i class="fas fa-envelope"></i>
+                    <span class="contact-text">
+                        <span class="contact-label">Email:</span>
+                        <span class="contact-value">[Your Email]</span>
+                    </span>
+                </a>
+                <a href="[Your LinkedIn Profile URL]" target="_blank" class="contact-option">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="[Your GitHub Profile URL]" target="_blank" class="contact-option">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- Add more contact options as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="PortfolioWebsiteMainPage.js"></script>
+</body>
+</html>
